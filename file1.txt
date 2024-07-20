@@ -1,2 +1,3 @@
 file1
 welcome to git1
+welcome to git2
