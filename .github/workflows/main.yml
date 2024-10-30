@@ -11,15 +11,15 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Bash script
-        run: echo Hello this is sample workflow
+        run: echo "Hello this is sample workflow"
 
       - name: Run multiline bash script
         run : |
-         echo what is this directory
+         echo "what is this directory"
          ls -a
 
-         echo what is the java version?
+         echo "what is the java version?"
          java -version
-         echo
-         echo what is the Git verion?
+         echo " "
+         echo "what is the Git verion?"
          git -version
